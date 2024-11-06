@@ -1,5 +1,13 @@
 // import Basics from "./introduction/1.basics";
 // import Transformations from "./introduction/2.transformations";
+import AnimatedBoxes from "./Hooks in Framer Motion/AnimatedBoxes";
+import AnimationComponent from "./Hooks in Framer Motion/AnimationComponent";
+import ColorChanger from "./Hooks in Framer Motion/ColorChanger";
+import DraggableColorBox from "./Hooks in Framer Motion/DraggableColorBox";
+import RangeSlider from "./Hooks in Framer Motion/RangeSlider";
+import UseMotionValue from "./Hooks in Framer Motion/useMotionValue";
+import UseScroll from "./Hooks in Framer Motion/UseScroll";
+import UseSpring from "./Hooks in Framer Motion/UseSpring";
 import Gestures from "./introduction/10.gestures";
 import AnimatedCard from "./introduction/11.animatedCard";
 import ImageGallery from "./introduction/12.imageGallary";
@@ -35,7 +43,16 @@ const App = () => {
       {/* <AnimatedCard /> */}
       {/* <ImageGallery /> */}
       {/* <StaggerAnimation /> */}
-      <AnimatedGallery />
+      {/* <AnimatedGallery /> */}
+      {/* <UseMotionValue /> */}
+      {/* <RangeSlider /> */}
+      {/* <ColorChanger /> */}
+      {/* <UseSpring /> */}
+      {/* <DraggableColorBox /> */}
+      {/* <UseScroll /> */}
+      {/* <AnimationComponent /> */}
+      {/* <AnimatedCard /> */}
+      <AnimatedBoxes />
     </div>
   );
 };

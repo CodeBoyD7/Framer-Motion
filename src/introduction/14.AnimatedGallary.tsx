@@ -15,7 +15,7 @@ const parentVariants = {
     opacity: 1,
     transition: {
       staggerChildren: 0.5,
-      staggerDirection: 1,
+      staggerDirection: 1, // 1 for normal, -1 for reverse
     },
   },
 };
